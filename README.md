@@ -10,11 +10,12 @@ It checks public resources, common misconfigurations, and provides an easy-to-re
 
 ## Features
 
-- ✅ List all public storage accounts and VMs
-- ✅ Identify resources with open public access
-- ✅ Check for weak security configurations (e.g. default passwords, no HTTPS)
-- ✅ Export findings to a Markdown report
-- ✅ Simple CLI usage
+- Detects **public Azure Storage Accounts** with blob public access enabled
+- Identifies **virtual machines** with public IP addresses
+- Audits **Network Security Groups (NSG)** for risky inbound rules (e.g. open to 0.0.0.0/0)
+- Generates a clear, structured **Markdown security report**
+- Fast, simple command-line interface
+- Works cross-platform (Windows, macOS, Linux)
 
 ---
 
